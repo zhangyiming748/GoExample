@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutRandNumber/myfunc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutRandNumber/myfunc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutSelect/myfunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutSelect/myfunc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Go Test.TestMySquare in GoExample/aboutTestFile">
+  <component name="RunManager" selected="Go Test.BenchmarkMySelect in GoExample/aboutSelect">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -75,26 +75,37 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkMyCube in GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkMySelect in GoExample/aboutSelect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="trans" />
-      <working_directory value="$PROJECT_DIR$/aboutTestFile" />
+      <working_directory value="$PROJECT_DIR$/aboutSelect" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="GoExample/aboutTestFile" />
+      <package value="GoExample/aboutSelect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkMyCube$" />
+      <pattern value="^BenchmarkMySelect$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkMySquare in GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMyRand in GoExample/aboutRandNumber" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="trans" />
-      <working_directory value="$PROJECT_DIR$/aboutTestFile" />
-      <framework value="gobench" />
+      <working_directory value="$PROJECT_DIR$/aboutRandNumber" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="GoExample/aboutTestFile" />
+      <package value="GoExample/aboutRandNumber" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkMySquare$" />
+      <pattern value="^TestMyRand$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMySelect in GoExample/aboutSelect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="trans" />
+      <working_directory value="$PROJECT_DIR$/aboutSelect" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="GoExample/aboutSelect" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMySelect$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMySquare in GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -119,16 +130,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go test GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="trans" />
-      <working_directory value="$PROJECT_DIR$/aboutTestFile" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="GoExample/aboutTestFile" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="gobench GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/aboutTestFile" />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkMySelect in GoExample/aboutSelect" />
+        <item itemvalue="Go Test.TestMySelect in GoExample/aboutSelect" />
+        <item itemvalue="Go Test.TestMyRand in GoExample/aboutRandNumber" />
         <item itemvalue="Go Test.TestMySquare in GoExample/aboutTestFile" />
         <item itemvalue="Go Test.gobench GoExample/aboutTestFile" />
-        <item itemvalue="Go Test.go test GoExample/aboutTestFile" />
-        <item itemvalue="Go Test.BenchmarkMyCube in GoExample/aboutTestFile" />
-        <item itemvalue="Go Test.BenchmarkMySquare in GoExample/aboutTestFile" />
       </list>
     </recent_temporary>
   </component>
@@ -168,31 +169,34 @@
     <MESSAGE value="设置main函数" />
     <MESSAGE value="重命名gomod" />
     <MESSAGE value="重命名的workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="重命名的workspace" />
+    <MESSAGE value="各种rand例子" />
+    <MESSAGE value="记录提交信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="记录提交信息" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612960821790">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612963892908">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821790" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612960821789">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892908" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612963892907">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821789" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612960821788">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892907" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612963892906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821788" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612960821789">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892906" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612963892908">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821789" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1612961190335">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892908" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1612961891196">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1612961190335" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1612961891196" />
   </component>
 </project>

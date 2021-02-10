@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutSelect/myfunc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutSelect/myfunc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutSelect/myfunc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/aboutSelect/myfunc_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,29 +170,30 @@
     <MESSAGE value="重命名的workspace" />
     <MESSAGE value="各种rand例子" />
     <MESSAGE value="记录提交信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="记录提交信息" />
+    <MESSAGE value="select的阻塞获取channel用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="select的阻塞获取channel用法" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612963892908">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612966958424">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892908" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612963892907">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612966958424" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612966958423">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892907" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612963892906">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612966958423" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612966958422">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892906" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612963892908">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612966958422" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612966958424">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612963892908" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612966958424" />
     <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1612961891196">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

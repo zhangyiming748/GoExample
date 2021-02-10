@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutTestFile/command.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutRandNumber/myfunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutRandNumber/myfunc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -161,25 +163,36 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单元测试和压力测试的通用写法和在终端上运行的命令" />
+    <MESSAGE value="设置main函数" />
+    <MESSAGE value="重命名gomod" />
+    <MESSAGE value="重命名的workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="重命名的workspace" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612959905041">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612960821790">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612959905041" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612959905041">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821790" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612960821789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612959905041" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612959905040">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821789" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612960821788">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612959905040" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612959905041">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821788" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612960821789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612959905041" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612960821789" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1612961190335">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1612961190335" />
   </component>
 </project>

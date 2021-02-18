@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="" />
+    <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Go Test.go test GoExample/aboutSet">
+  <component name="RunManager" selected="Go Test.TestCloseChannel in GoExample/aboutCloseChannel">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -80,6 +82,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkMySelect$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCloseChannel in GoExample/aboutCloseChannel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoExample" />
+      <working_directory value="$PROJECT_DIR$/aboutCloseChannel" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="GoExample/aboutCloseChannel" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCloseChannel$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMyRand in GoExample/aboutRandNumber" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -102,17 +115,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMySelect$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMySquare in GoExample/aboutTestFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="trans" />
-      <working_directory value="$PROJECT_DIR$/aboutTestFile" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="GoExample/aboutTestFile" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMySquare$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCloseChannel in GoExample/aboutCloseChannel" />
         <item itemvalue="Go Test.go test GoExample/aboutSet" />
         <item itemvalue="Go Test.BenchmarkMySelect in GoExample/aboutSelect" />
         <item itemvalue="Go Test.TestMySelect in GoExample/aboutSelect" />
         <item itemvalue="Go Test.TestMyRand in GoExample/aboutRandNumber" />
-        <item itemvalue="Go Test.TestMySquare in GoExample/aboutTestFile" />
       </list>
     </recent_temporary>
   </component>

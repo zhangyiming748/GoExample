@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutCloseChannel/myfunc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutCloseChannel/myfunc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutPanicAndRecover/myfunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutPanicAndRecover/myfunc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Go Test.TestCloseChannel in GoExample/aboutCloseChannel">
+  <component name="RunManager" selected="Go Test.TestPanic in GoExample/aboutPanicAndRecover">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -97,17 +97,6 @@
       <pattern value="^TestCloseChannel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyRand in GoExample/aboutRandNumber" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="trans" />
-      <working_directory value="$PROJECT_DIR$/aboutRandNumber" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="GoExample/aboutRandNumber" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMyRand$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestMySelect in GoExample/aboutSelect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/aboutSelect" />
@@ -117,6 +106,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMySelect$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPanic in GoExample/aboutPanicAndRecover" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoExample" />
+      <working_directory value="$PROJECT_DIR$/aboutPanicAndRecover" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="GoExample/aboutPanicAndRecover" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPanic$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPanic in GoExample/aboutPanicAndRecover" />
         <item itemvalue="Go Test.TestCloseChannel in GoExample/aboutCloseChannel" />
         <item itemvalue="Go Test.go test GoExample/aboutSet" />
         <item itemvalue="Go Test.BenchmarkMySelect in GoExample/aboutSelect" />
         <item itemvalue="Go Test.TestMySelect in GoExample/aboutSelect" />
-        <item itemvalue="Go Test.TestMyRand in GoExample/aboutRandNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -182,22 +182,22 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1613620435142">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1613643091419">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1613620435142">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613643091419" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1613643091418">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1613620435141">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613643091418" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1613643091417">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435141" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1613620435142">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613643091417" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1613643091418">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613643091418" />
     <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1613620400694">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

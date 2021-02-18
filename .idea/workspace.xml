@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutSet/myfunc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutSet/myfunc_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,32 +170,33 @@
     <MESSAGE value="记录提交信息" />
     <MESSAGE value="select的阻塞获取channel用法" />
     <MESSAGE value="代码修改日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码修改日志" />
+    <MESSAGE value="集合运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合运算" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1612967206202">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1613620435142">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612967206202" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1612967206200">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1613620435142">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612967206200" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1612967206200">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1613620435141">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612967206200" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1612967206201">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435141" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1613620435142">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612967206201" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1612967169704">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613620435142" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1613620400694">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1612967169704" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613620400694" />
   </component>
 </project>

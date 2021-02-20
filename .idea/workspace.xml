@@ -192,7 +192,9 @@
     <MESSAGE value="代码修改日志" />
     <MESSAGE value="集合运算" />
     <MESSAGE value="手写生产者消费者模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="手写生产者消费者模型" />
+    <MESSAGE value="格式化代码" />
+    <MESSAGE value="删除代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除代码" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
@@ -215,9 +217,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613663484234" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1613663298423">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1613664250901">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613663298423" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613664250901" />
   </component>
 </project>

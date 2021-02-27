@@ -27,6 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17426b29-dc17-47ee-890f-67152dde9af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aboutReadFile/myfunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutReadFile/myfunc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutReadFile/tf.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +72,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Go Test.go test GoExample/aboutChannel">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aboutReadFile" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestReadlink in GoExample/aboutReadFile">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="trans" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -102,15 +111,15 @@
       <pattern value="^TestCloseChannel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyChannle in GoExample/aboutChannel" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReadlink in GoExample/aboutReadFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoExample" />
-      <working_directory value="$PROJECT_DIR$/aboutChannel" />
+      <working_directory value="$PROJECT_DIR$/aboutReadFile" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="GoExample/aboutChannel" />
+      <package value="GoExample/aboutReadFile" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMyChannle$" />
+      <pattern value="^TestReadlink$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -146,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestReadlink in GoExample/aboutReadFile" />
         <item itemvalue="Go Test.go test GoExample/aboutChannel" />
         <item itemvalue="Go Test.go test GoExample/aboutCloseChannel" />
         <item itemvalue="Go Test.TestAllInOne in GoExample/aboutCloseChannel" />
         <item itemvalue="Go Test.TestCloseChannel in GoExample/aboutCloseChannel" />
-        <item itemvalue="Go Test.TestMyChannle in GoExample/aboutChannel" />
       </list>
     </recent_temporary>
   </component>

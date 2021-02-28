@@ -19,3 +19,23 @@ func TestReadAndAppend(t *testing.T) {
 func TestF2F(t *testing.T) {
 	F2F(file1,file2)
 }
+func BenchmarkCreate(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Create(file1)
+	}
+}
+func BenchmarkAppending(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Appending(file1)
+	}
+}
+func BenchmarkReadAndAppend(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		ReadAndAppend(file1)
+	}
+}
+func BenchmarkF2F(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		F2F(file1,file2)
+	}
+}

@@ -27,6 +27,7 @@ func Create(filePath string) {
 	//Flush将缓存的文件真正写入到文件中
 	write.Flush()
 }
+
 //打开一个存在的文件，在原来的内容追加内容“C语言中文网”
 func Appending(filePath string) {
 	//filePath := "e:/code/golang.txt"
@@ -74,9 +75,10 @@ func ReadAndAppend(filePath string) {
 	//Flush将缓存的文件真正写入到文件中
 	write.Flush()
 }
+
 //将一个文件的内容复制到另外一个文件（注：这两个文件都已存在）
 
-func F2F(file1Path,file2Path string) {
+func F2F(file1Path, file2Path string) {
 	//file1Path := "e:/code/golang.txt"
 	//file2Path := "e:/code/other.txt"
 	data, err := ioutil.ReadFile(file1Path)

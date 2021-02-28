@@ -2,9 +2,9 @@ package aboutIOFile
 
 import "testing"
 
-var(
-	file1="golang.txt"
-	file2="other.txt"
+var (
+	file1 = "golang.txt"
+	file2 = "other.txt"
 )
 
 func TestCreate(t *testing.T) {
@@ -17,7 +17,7 @@ func TestReadAndAppend(t *testing.T) {
 	ReadAndAppend(file1)
 }
 func TestF2F(t *testing.T) {
-	F2F(file1,file2)
+	F2F(file1, file2)
 }
 func BenchmarkCreate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
@@ -36,6 +36,6 @@ func BenchmarkReadAndAppend(b *testing.B) {
 }
 func BenchmarkF2F(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		F2F(file1,file2)
+		F2F(file1, file2)
 	}
 }

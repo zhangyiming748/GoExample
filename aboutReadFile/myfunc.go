@@ -8,7 +8,7 @@ import (
 )
 
 func Readlink(fp string) []string {
-	lines:=[]string{}
+	lines := []string{}
 	fi, err := os.Open(fp)
 	if err != nil {
 		fmt.Printf("Error: %s\n", err)

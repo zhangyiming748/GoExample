@@ -7,3 +7,5 @@ workspace.xml
 # 不排除.gitignore和App.class:
 !.gitignore
 !App.class
+# 排除Jetbrains
+.idea

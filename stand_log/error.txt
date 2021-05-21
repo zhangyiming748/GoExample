@@ -1,0 +1,1 @@
+ERROR:2021/05/21 19:39:20 /Users/zen/Github/GoExample/stand_log/main.go:52: 我不听我不听都是你的错

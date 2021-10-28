@@ -28,7 +28,7 @@ func RunCmd() {
 		}
 	}
 	if err = cmd.Wait(); err != nil {
-		fmt.Sprintf("命令运行期间产生的错误:%v\n",err)
+		fmt.Sprintf("命令运行期间产生的错误:%v\n", err)
 
 	}
 }

@@ -5,10 +5,8 @@ import (
 	"os/exec"
 )
 
-
-
 func pid(pid string) {
-	cmd := exec.Command("netstat", "-nap","|","grep",pid)
+	cmd := exec.Command("netstat", "-nap", "|", "grep", pid)
 	// 命令的错误输出和标准输出都连接到同一个管道
 	stdout, err := cmd.StdoutPipe()
 	cmd.Stderr = cmd.Stdout
@@ -30,7 +28,7 @@ func pid(pid string) {
 		}
 	}
 	if err = cmd.Wait(); err != nil {
-		fmt.Sprintf("命令运行期间产生的错误:%v\n",err)
+		fmt.Sprintf("命令运行期间产生的错误:%v\n", err)
 
 	}
 }
